@@ -9,7 +9,7 @@ const app = express();
 //allow cross-origin requests
 app.use(cors());
 
-mongoose.connect('**********************' , { useNewUrlParser: true })
+mongoose.connect('**********************'//your login password for detail please go to mongoose website , { useNewUrlParser: true })
 mongoose.connection.once('open',() => {
     console.log('connected to database');
 });
