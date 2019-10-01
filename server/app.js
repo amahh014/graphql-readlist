@@ -9,7 +9,7 @@ const app = express();
 //allow cross-origin requests
 app.use(cors());
 
-mongoose.connect('mongodb+srv://new_user:salam123@amahh014-8blyw.mongodb.net/test?retryWrites=true&w=majority' , { useNewUrlParser: true })
+mongoose.connect('**********************' , { useNewUrlParser: true })
 mongoose.connection.once('open',() => {
     console.log('connected to database');
 });
